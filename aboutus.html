@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LuminaSkin</title>
+  <style>
+	header{
+		background-color:#B048B5;
+		text-align:center;
+		height:30px;
+		padding-top:10px;
+		
+	}
+	body {font-family: Arial;
+		
+		justify-content: center;
+		align-items: top;
+		height: 8vh;
+		
+	}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  border-radius: 50px; /* Added border-radius to make it circular */
+  display: inline-block; /* Added display property to make it inline */
+  margin-left:600px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border-radius: 50%; /* Added border-radius to make it circular */
+  margin: 5px; /* Added margin for spacing between buttons */
+  font-family: "Helvetica", sans-serif; /* Added font-family property */
+  font-weight: bold; /* Added font-weight property */
+  color: #333; /* Added color property */
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+body {
+      margin: 0;
+      padding-bottom: 30px; /* Set a bottom padding to make space for the footer */
+    }
+
+    .footer {
+      
+      left: 0;
+      bottom: 0;
+      width: 98.7%;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+	  
+    }
+	/*back to home page*/
+    .circular-button {
+      border-radius:60px;
+      width: 100px;
+      height: 50px;
+      background-color: #E0B0FF;
+      border: none;
+      color: #fff;
+      font-size: 25px;
+	  display: inline-block;
+	  margin-left:700px;
+	  margin-bottom:20px;
+    }
+	
+  </style>
+</head>
+<body>
+	<header><b>100% AUTHENTIC PRODUCTS</b></header>
+	<h1 style="font-family:chiller; font-size:80px;text-align:center">LuminaSkin</h1>
+	
+	<div class="tab">
+  <button class="tablinks" onclick="openPage('skicare.html')">Skincare</button>
+  <button class="tablinks" onclick="openPage('onsale.html')">ON SALE</button>
+  <button class="tablinks" onclick="openPage('aboutus.html')">About Us</button>
+</div>
+
+<div id="Skincare" class="tabcontent">
+  <h3>Skincare</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="ON SALE" class="tabcontent">
+  <h3>ON SALE</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="About Us" class="tabcontent">
+  <h3>About Us</h3>
+  <p></p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+function openPage(url) {
+  window.location.href = url;
+}
+</script>
+<br><br>
+
+<h1 style="font-size:50px; font-family:Times New Roman"><b>Our Story</b></h1>
+<p>Makeup and skincare have always been more than just hobbies for me; they are my obsession, my love, and the ultimate source of joy. From endlessly watching TikTok and YouTube videos to experimenting with DIY tips and tricks, I eagerly dove headfirst into the mesmerising world of beauty.<br><br>
+As I began watching  skincare videos and makeup tutorials on TikTok, I realised that I was not alone in my fascination. Many others were curious about the products I used and how to get them. My inbox overflowed with messages from people eager to get their hands on these products. 
+However, I noticed that in Sri Lanka, accessing a wide range of makeup and skincare products posed a challenge. The limited availability left many disheartened, struggling to keep up with international beauty trends.<br><br>
+It filled my heart with joy to be seen as a trustworthy source, knowing that I tried and tested every product in my videos. The empowerment I felt knowing that my enthusiasm inspired others to embrace their unique beauty was immeasurable.<br><br>
+Driven by my passion and the desire to make a difference, “LuminaSkin” was born – a platform where all beauty enthusiasts could access a diverse range of international skincare and makeup favourites, including the trendsetting K-beauty products. My goal was to ensure that the transformative magic of these products reached the doorsteps of every Sri Lankan.<br><br>
+I carefully curated each product, guaranteeing authenticity and quality. This endeavour was a labor of love and dedication to the beauty community.<br><br>
+“LuminaSkin” with its user-friendly interface, island-wide quick deliveries, and a plethora of payment options, I aimed to cater to every need of my cherished fellow beauty enthusiasts.<br><br>
+I warmly encourage any feedback, suggestions, and ideas because I believe that together, we can create something truly special. This platform is a haven for beauty enthusiasts, where they can explore, discover, and indulge in the very best of skincare and makeup.<br><br>
+Thank YOU for being a part of our story, where every smile of satisfaction, every newfound confidence, and every empowered heart finds its unique beauty.<br><br>
+<b>Welcome to LuminaSkin, where true beauty thrives, and dreams are brought to life!</b>
+</p>
+
+<button class="circular-button" onclick="goToHomePage()">Home</button>
+
+<script>
+    function goToHomePage() {
+      window.location.href = "skincare.html";
+    }
+  </script>
+<div class="footer">
+    <h1 style="font-family:chiller; font-size:30px;text-align:center" >LuminaSkin<br></h1>
+	<p style="font-size:10px;margin-top:-20px">Be the best you.</p>
+  </div>
+  
+  
+  
+
+  
+</body>
+</html>
