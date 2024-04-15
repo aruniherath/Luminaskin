@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuminaSkin</title>
+    <link rel = "stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <section id = "header">
+        <h1 style="font-family:chiller; font-size:30px;text-align:left;font-weight: 900;">LuminaSkin</h1>
+
+        <div>
+            <ul id = "navbar">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="skincare.html">Skincare</a></li>
+                <li><a  href="about.html">About Us</a></li>
+                <li><a  href="contact.html">Contact Us</a></li>
+                <li><a class ="active"href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <section id ="page-header" class="cart_header">
+        <img style="height: fit-content;">
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                     <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                     <td><img src="images/skincare/11.png" alt=""></td>
+                     <td>Beauty of Joseon Matte Sun Stick 18g</td>
+                     <td>Rs 5,290.00</td>
+                     <td><input type="number" value="1"></td>
+                     <td>Rs 5,290.00</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                    <td><img src="images/skincare/7.jpeg" alt=""></td>
+                    <td>COSRX   Acne Pimple Master Patch</td>
+                    <td>Rs 1,590.00</td>
+                    <td><input type="number" value="2"></td>
+                    <td>Rs 3,180.00</td>
+               </tr>
+
+               <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="images/features/ourfea3.jpg" alt=""></td>
+                <td>TOCOBO Cotton Soft Sun Stick 19g</td>
+                <td>Rs 1,090.00</td>
+                <td><input type="number" value="1"></td>
+                <td>Rs 1,090.00</td>
+           </tr>
+
+            </tbody>
+        </table>
+    </section>
+   
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #707070;">
+                    <td>Cart Subtotal</td>
+                    <td>Rs 9,560.00</td>
+                </tr>
+                <tr style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                color: #707070;">
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>Rs 9,560.00</strong></td>
+                </tr>
+                </tr>
+            </table>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+
+    </section>
+
+    
+    <footer class="section-p1">
+        <div class="col">
+            <h1 class="logo" style="font-family:chiller; font-size:30px;text-align:left">LuminaSkin</h1>
+            <h4>Contact</h4>
+            <p><strong>Address:</strong>212 Wellington Road,Colombo 07</p>
+            <p><strong>Email Address:</strong>luminaskin@gmail.com</p>
+            <p><strong>Phone:</strong>+94762969441</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>Abous</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Carts</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Track My Orders</a>
+            <a href="#">Helps</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="images/pay/app.jpg" alt="">
+                <img src="images/pay/play.jpg" alt="">
+
+            </div>
+            <p>Secured Pay Gateway</p>
+            <img src="images/pay/pay.png" alt="">
+
+        </div>
+
+        <div  class="copyright">
+            <p>©LuminaSkin 2024</p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
